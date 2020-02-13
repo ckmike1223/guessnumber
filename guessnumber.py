@@ -1,6 +1,9 @@
 import random #random is a module
-
-r = random.randint(1, 100)
+start = input('Please decide your starting value: ')
+end = input('Please decide your ending value: ')
+start = int(start)
+end = int(end)
+r = random.randint(start, end)
 count = 0 #must be written outside the while loop
 while True:
 	count = count + 1 # count += 1
